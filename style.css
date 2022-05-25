@@ -17,12 +17,13 @@ h1{
     font-family: 'Fredoka One', cursive;
     padding: 2%;
     color: #e53170;
-    font-size: 20px;
+    font-size: 25px;
 }
 p{
     font-size: 18px;
     padding-bottom: 20px;
     margin-top: 10px;
+    font-family: 'Quicksand', sans-serif;
 }
 
 img {
@@ -75,9 +76,10 @@ main{
 }
 .profession-style{
     font-size: 80%;
+    font-family: 'Raleway', sans-serif;
 }
 .email-style{
-    font-family:'Fredoka One', cursive;
+    font-family: 'Poppins', sans-serif;
     color: #6ecbcd;
     font-size: 65%;
 }
