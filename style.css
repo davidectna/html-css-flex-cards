@@ -1,12 +1,12 @@
 /*reset*/
-* {
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
 
-/*commons*/
-
+  /*commons*/
 header{
     text-align: center;
     background-color: #fff;
@@ -17,4 +17,69 @@ h1{
     font-family: 'Fredoka One', cursive;
     padding: 2%;
     color: #e53170;
+    font-size: 20px;
+}
+p{
+    font-size: 18px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+
+img {
+    height: 75px;
+    width: 75px;
+}
+
+main{
+    width: 80%;
+    text-align: center;
+    margin:0 auto;
+}
+
+/*class*/
+
+.container-structure-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.lines-structure-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.flexcards-structure{
+    display:flex;
+    flex-direction:row;
+    background-color: black;
+    color: #fff;
+    width: 32%;
+    padding: 0px;
+
+}
+
+.credentials-structure{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.name-style{
+    font-family:'Fredoka One', cursive;
+    font-size: 12px;
+}
+.profession-style{
+    font-size: 80%;
+}
+.email-style{
+    font-family:'Fredoka One', cursive;
+    color: #6ecbcd;
+    font-size: 65%;
+}
+.font-secondtype{
+    font-family: 'Source Sans Pro', sans-serif;
 }
